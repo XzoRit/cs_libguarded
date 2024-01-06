@@ -18,13 +18,12 @@
 #include <cs_cow_guarded.h>
 #include <cs_plain_guarded.h>
 #include <cs_shared_guarded.h>
-#include <mutex>
+
+#include <thread>
+#include <type_traits>
 
 #include <catch2/catch_test_macros.hpp>
 #include <catch2/catch_template_test_macros.hpp>
-
-#include <atomic>
-#include <thread>
 
 using namespace libguarded;
 

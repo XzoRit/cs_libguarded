@@ -18,6 +18,8 @@
 #include <cs_cow_guarded.h>
 
 #include <thread>
+#include <mutex>
+#include <chrono>
 
 #include <catch2/catch_test_macros.hpp>
 

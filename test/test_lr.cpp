@@ -17,7 +17,10 @@
 
 #include <cs_lr_guarded.h>
 
+#include <chrono>
+#include <mutex>
 #include <thread>
+#include <type_traits>
 
 #include <catch2/catch_test_macros.hpp>
 

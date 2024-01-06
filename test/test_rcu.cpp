@@ -19,8 +19,13 @@
 #include <cs_rcu_list.h>
 
 #include <algorithm>
-#include <thread>
+#include <atomic>
 #include <iostream>
+#include <memory>
+#include <mutex>
+#include <thread>
+#include <type_traits>
+#include <vector>
 
 #include <catch2/catch_test_macros.hpp>
 

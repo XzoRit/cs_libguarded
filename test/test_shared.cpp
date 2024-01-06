@@ -18,11 +18,11 @@
 #include <cs_shared_guarded.h>
 
 #include <atomic>
+#include <chrono>
 #include <thread>
-
+#include <mutex>
 #include <shared_mutex>
 using shared_mutex = std::shared_timed_mutex;
-namespace chrono   = std::chrono;
 
 #include <catch2/catch_test_macros.hpp>
 
