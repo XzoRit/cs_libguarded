@@ -22,6 +22,7 @@
 #include <array>
 #include <tuple>
 #include <utility>
+#include <type_traits>
 
 namespace libguarded
 {

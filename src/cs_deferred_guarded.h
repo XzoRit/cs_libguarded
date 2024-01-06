@@ -25,6 +25,10 @@
 #include <memory>
 #include <vector>
 #include <shared_mutex>
+#include <type_traits>
+#include <utility>
+#include <exception>
+#include <mutex>
 
 namespace libguarded
 {

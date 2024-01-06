@@ -25,6 +25,8 @@
 #include <initializer_list>
 #include <memory>
 #include <mutex>
+#include <utility>
+#include <iterator>
 
 namespace libguarded
 {

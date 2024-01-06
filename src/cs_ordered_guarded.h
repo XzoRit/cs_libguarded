@@ -22,6 +22,7 @@
 #include <mutex>
 #include <type_traits>
 #include <shared_mutex>
+#include <utility>
 
 namespace libguarded
 {

@@ -20,9 +20,9 @@
 
 #include "cs_lr_guarded.h"
 
-#include <atomic>
 #include <memory>
 #include <mutex>
+#include <utility>
 
 namespace libguarded
 {

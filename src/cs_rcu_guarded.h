@@ -18,7 +18,7 @@
 #ifndef CSLIBGUARDED_RCU_GUARDED_H
 #define CSLIBGUARDED_RCU_GUARDED_H
 
-#include <memory>
+#include <utility>
 
 namespace libguarded
 {
