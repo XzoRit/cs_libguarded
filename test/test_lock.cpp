@@ -21,7 +21,8 @@
 #include <cs_lock_guards.h>
 #include <mutex>
 
-#include <catch2/catch_all.hpp>
+#include <catch2/catch_test_macros.hpp>
+#include <catch2/catch_template_test_macros.hpp>
 
 #include <atomic>
 #include <thread>

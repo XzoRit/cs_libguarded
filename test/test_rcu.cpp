@@ -18,10 +18,11 @@
 #include <cs_rcu_guarded.h>
 #include <cs_rcu_list.h>
 
+#include <algorithm>
 #include <thread>
 #include <iostream>
 
-#include <catch2/catch_all.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 using namespace libguarded;
 
