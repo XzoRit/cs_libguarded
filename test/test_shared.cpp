@@ -24,7 +24,7 @@
 using shared_mutex = std::shared_timed_mutex;
 namespace chrono   = std::chrono;
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_all.hpp>
 
 using namespace libguarded;
 

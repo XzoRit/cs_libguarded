@@ -10,7 +10,7 @@ add_executable(CsLibGuardedTest "")
 target_link_libraries(CsLibGuardedTest
    PUBLIC
    CsLibGuarded
-   Catch2::Catch2
+   Catch2::Catch2WithMain
    Threads::Threads
 )
 

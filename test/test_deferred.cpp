@@ -21,7 +21,7 @@
 #include <shared_mutex>
 using shared_mutex = std::shared_timed_mutex;
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_all.hpp>
 
 using namespace libguarded;
 
